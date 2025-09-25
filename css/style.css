@@ -135,6 +135,67 @@ body {
 .team-map-link:focus {
   text-decoration: underline;
 }
+/* 4 секция  */ 
+.portfolio-section {
+  text-align: center;
+  padding: 60px 20px; /* Можно регулировать по макету */
+}
+
+.portfolio-section .section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 40px;
+}
+
+/* Список проектов */
+.portfolio-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* расстояние между карточками */
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 360px;
+}
+
+/* Картинки  */
+.portfolio-img {
+  width: 360px;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Заголовки проектов */
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 0 0 10px 0;
+}
+
+/* Описания проектов */
+.portfolio-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0;
+}
+
 
 /* Footer */
 .footer-logo {

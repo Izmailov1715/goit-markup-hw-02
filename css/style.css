@@ -48,12 +48,6 @@
   font-style: normal;
 }
 
-.contact-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -98,9 +92,7 @@
 }
 
 /* Секция Features */
-.features-section {
-  text-align: left;
-}
+.features-section {}
 
 .features-title {
   font-size: 32px;
@@ -109,11 +101,7 @@
   color: #2e2f42;
 }
 
-.features-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+.features-list {}
 
 .feature-name {
   font-size: 20px;
@@ -128,9 +116,7 @@
 }
 
 /* Секция Team */
-.team-section {
-  text-align: left;
-}
+.team-section {}
 
 .team-title {
   font-size: 32px;
@@ -139,11 +125,7 @@
   color: #2e2f42;
 }
 
-.team-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+.team-list {}
 
 .team-name {
   font-size: 20px;

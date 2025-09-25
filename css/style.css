@@ -92,7 +92,6 @@
 }
 
 /* Секция Features */
-.features-section {}
 
 .features-title {
   font-size: 32px;
@@ -101,7 +100,6 @@
   color: #2e2f42;
 }
 
-.features-list {}
 
 .feature-name {
   font-size: 20px;
@@ -116,7 +114,6 @@
 }
 
 /* Секция Team */
-.team-section {}
 
 .team-title {
   font-size: 32px;
@@ -125,7 +122,7 @@
   color: #2e2f42;
 }
 
-.team-list {}
+
 
 .team-name {
   font-size: 20px;

@@ -99,17 +99,17 @@ body {
 
 /* Секция: имя класса — team-section (все буквы латиницей, строчные, >=3 символов) */
 .team-section {
-  background-color: #F4F4FD; /* требуемый фон секции */
+  background-color: #F4F4FD; 
 }
 
 /* Заголовок секции (повторно используем team-title) */
 .team-title {
-  font-size: 36px;       /* требование */
-  line-height: 1.11;     /* требование */
-  text-align: center;    /* требование */
-  letter-spacing: 0.02em;/* требование */
-  text-transform: capitalize; /* требование */
-  color: #2e2f42;        /* требование */
+  font-size: 36px;       
+  line-height: 1.11;     
+  text-align: center;    
+  letter-spacing: 0.02em;
+  text-transform: capitalize; 
+  color: #2e2f42;        
   margin: 0 0 24px;
 }
 
@@ -121,6 +121,7 @@ body {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  line-height: 1.5;
 }
 
 /* Секция 3 */

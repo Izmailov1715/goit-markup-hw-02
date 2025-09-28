@@ -26,7 +26,6 @@ body {
 .nav-list {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .nav-link {
@@ -52,7 +51,6 @@ body {
 .contact-list {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .contact-link {
@@ -107,7 +105,6 @@ body {
 .feature-section {
   background-color: #F4F4FD; 
   text-align: center;
-  padding: 60px 20px; 
 }
 .features-title {
   font-weight: 500;
@@ -159,9 +156,6 @@ body {
 .team-list {
   list-style: none;
   margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
   flex-wrap: wrap;
 
 }
@@ -186,18 +180,11 @@ body {
 .team-list {
   list-style: none;
   margin: 0;
-  padding: 0;
-  display: flex;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 .team-item {
   background-color: #FFFFFF; 
-  width: 264px;
-  padding: 16px;
-  box-sizing: border-box;
-  border-radius: 8px;
   text-align: center;
 }
 
@@ -225,7 +212,6 @@ body {
 /* 4 секция  */ 
 .portfolio-section {
   text-align: center;
-  padding: 60px 20px; 
 }
 
 .section-title {
@@ -242,25 +228,17 @@ body {
 .portfolio-list {
   list-style: none;
   margin: 0;
-  padding: 0;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px; 
 }
 
 .portfolio-item {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  max-width: 360px;
 }
 
 /* Картинки  */
 .portfolio-img {
-  width: 360px;
   height: auto;
-  display: block;
   margin-bottom: 20px;
 }
 

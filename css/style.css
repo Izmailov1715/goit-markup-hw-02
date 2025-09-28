@@ -1,37 +1,40 @@
-/* Общие стили для body */
+/* ===== Общие стили ===== */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
-
+  margin: 0;
 }
 
-/* Логотип */
+/* ===== Логотип ===== */
 .logo {
   font-family: "Raleway", sans-serif;
-  letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  color: #4d5ae5;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-span {
   color: #2e2f42;
 }
 
-/* Навигация */
+/* ===== Навигация ===== */
 .nav-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  line-height: 1.5 ;
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -39,22 +42,23 @@ body {
   color: #404bbf;
 }
 
-/* Контакты */
+/* ===== Контакты ===== */
 .contact-address {
   font-style: normal;
 }
 
-
 .contact-list {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 .contact-link {
   font-size: 16px;
-  line-height: 1.5 ;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;;
+  color: #434455;
+  text-decoration: none;
 }
 
 .contact-link:hover,
@@ -62,7 +66,7 @@ body {
   color: #404bbf;
 }
 
-/* Первая секция */
+/* ===== Первая секция ===== */
 .intro-section {
   background-color: #2e2f42;
   text-align: center;
@@ -73,7 +77,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color:  #4D5AE5 ;
+  background-color: #4D5AE5;
 }
 
 .intro-button {
@@ -81,186 +85,149 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 0.04em;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   cursor: pointer;
-  color:  #ffffff;
 }
 
-
+.intro-button:hover,
 .intro-button:focus {
-  background-color:  #404BBF;
-  
+  background-color: #404BBF;
 }
 
-.intro-button:hover {
-  background-color:  #404BBF;
-}
-/*Cекция 2  */
+/* ===== Вторая секция ===== */
 .feature-section {
-  background-color: #F4F4FD; 
+  background-color: #F4F4FD;
   text-align: center;
 }
-.features-title {       
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+
+.features-title {
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-.feature-name {
-  font-size: 20px;
-  letter-spacing: 0.02em ;
-  color: #434455;
-  font-weight: 500;
-  line-height: 1.2;
+  color: #2e2f42;
 }
 
-.feature-name {          
+.feature-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .feature-desc {
-  letter-spacing: 0.02em ;
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-/* Секция 3 */
+
+/* ===== Третья секция ===== */
 .team-section {
-  background-color: #F4F4FD; 
+  background-color: #F4F4FD;
+  text-align: center;
+}
+
+.team-title {
   font-size: 36px;
   line-height: 1.11;
-
-}
-
-/* Заголовок секции (повторно используем team-title) */
-.team-title {
-  font-size: 36px;        
   letter-spacing: 0.02em;
-  line-height: 1.11;
   text-transform: capitalize;
-  color: #2e2f42;        
-
+  color: #2e2f42;
 }
 
-/* Список */
 .team-list {
-}
-
-/* Секция 3 */
-
-.team-section {
-  background-color: #F4F4FD; 
-}
-
-/* ===== Заголовок секции ===== */
-.section-title {
-  font-size: 36px;   
-  line-height: 1.11;
-  letter-spacing: 0.02em; 
-  color: #2e2f42;      
-  text-align: center;
-  text-transform: capitalize;
-}
-
-/* ===== Список ===== */
-.team-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .team-item {
   background-color: #FFFFFF;
-margin: 0;
+  margin: 0;
 }
 
-
-.member-title {      
+.member-title {
   font-size: 20px;
-  font-weight:  500;
+  font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em; 
-  color: #2e2f42; 
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.member-text {           
-  letter-spacing: 0.02em; 
+.member-text {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;         
-}
-
-
-
-
-/* 4 секция  */ 
-.portfolio-section {
-}
-
-.section-title {
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-
-}
-
-/* Список проектов */
-.portfolio-list {
-
-}
-
-.portfolio-item {
-  
-}
-
-/* Картинки  */
-.portfolio-img {
-
-}
-
-/* Заголовки проектов */
-.portfolio-title {
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-/* Описания проектов */
-.portfolio-desc {
   letter-spacing: 0.02em;
   color: #434455;
-  line-height: 1.5;
 }
 
+/* ===== Четвертая секция ===== */
+.portfolio-section {
+  text-align: center;
+}
 
-/* Footer */
+.portfolio-heading {  /* отдельный класс для заголовка секции 4 */
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-item { }
+
+.portfolio-img { }
+
+.portfolio-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ===== Footer ===== */
 .footer {
   background-color: #2e2f42;
-  
+  text-align: center;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
   font-weight: 700;
-  font-size: 18px;  
-  line-height: 1.17;  
-  letter-spacing: 0.03em 
-  ;
-  
-}
-
-.footer-text {
-  color: #F4F4FD;
-  letter-spacing: 0.02em;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  color: #4d5ae5;
 }
 
 .footer-logo-accent {
   color: #f4f4fd;
-  line-height: 1.5;
+}
 
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+  text-transform: uppercase;
 }
 

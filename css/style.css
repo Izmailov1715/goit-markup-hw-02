@@ -83,7 +83,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 1.5;
-
+  cursor: pointer;
   color:  #ffffff;
 }
 
@@ -107,12 +107,14 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  font
 }
 .feature-name {
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 0.02em ;
   color: #434455;
-
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .feature-name {          

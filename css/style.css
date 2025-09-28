@@ -189,7 +189,7 @@ body {
   color: #2e2f42; 
   font-size: 36px;
  line-height: 1.11;
- 
+
 
 }
 
@@ -267,9 +267,13 @@ body {
 .footer-text {
   color: #F4F4FD;
   letter-spacing: 0.02em;
+  text-transform: uppercase;
+
 }
 
 .footer-logo-accent {
-  color: #f4f4fd
+  color: #f4f4fd;
+  line-height: 1.5;
+
 }
 

@@ -124,6 +124,7 @@ body {
 
 .feature-desc {
   letter-spacing: 0.02em ;
+  line-height: 1.5;
 }
 /* Секция 3 */
 .team-section {

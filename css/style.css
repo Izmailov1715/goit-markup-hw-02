@@ -95,7 +95,22 @@ body {
 .intro-button:focus {
   background-color: #404BBF;
 }
-
+/*Cекция 2  */
+.feature-section {
+  background-color: #F4F4FD; 
+  text-align: center;
+  padding: 60px 20px; 
+}
+.features-title {
+  font-size: 20px;       
+  line-height: 1.2;     
+  text-align: center;    
+  letter-spacing: 0.02em;
+  text-transform: capitalize; 
+  color: #2e2f42;        
+  margin: 0 0 40px;
+  font-weight: 500;
+}
 /* Секция: имя класса — team-section (все буквы латиницей, строчные, >=3 символов) */
 .team-section {
   background-color: #F4F4FD; 

@@ -51,6 +51,8 @@ body {
 }
 
 .contact-link {
+  font-size: 16px;
+  line-height: 1.5 ;
   letter-spacing: 0.02em;
   color: #434455;;
 }
@@ -63,10 +65,12 @@ body {
 /* Первая секция */
 .intro-section {
   background-color: #2e2f42;
+  text-align: center;
 }
 
 .intro-title {
-  
+  font-size: 56px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
   background-color:  #4D5AE5 ;
@@ -78,6 +82,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
+  line-height: 1.5;
+
   color:  #ffffff;
 }
 
@@ -98,6 +104,9 @@ body {
 .features-title {       
   letter-spacing: 0.02em;
   color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 .feature-name {
   font-size: 16px;
@@ -124,6 +133,8 @@ body {
 .team-title {
   font-size: 36px;        
   letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-transform: capitalize;
   color: #2e2f42;        
 }
 
@@ -206,10 +217,17 @@ body {
 /* Footer */
 .footer {
   background-color: #2e2f42;
+  
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;  
+  line-height: 1.17;  
+  letter-spacing: 0.03em 
+  ;
+  
 }
 
 .footer-text {

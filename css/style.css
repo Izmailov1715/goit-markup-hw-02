@@ -3,12 +3,15 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
+
 }
 
 /* Логотип */
 .logo {
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 1.7;
   color: #4d5ae5;
 }

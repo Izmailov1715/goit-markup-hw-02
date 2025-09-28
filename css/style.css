@@ -111,6 +111,13 @@ body {
   margin: 0 0 40px;
   font-weight: 500;
 }
+.feature-name {
+  font-size: 16px;
+  line-height: 15;
+  letter-spacing: 0.02em ;
+  color: #434455;
+
+}
 /* Секция: имя класса — team-section (все буквы латиницей, строчные, >=3 символов) */
 .team-section {
   background-color: #F4F4FD; 

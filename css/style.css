@@ -107,7 +107,6 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
-  font
 }
 .feature-name {
   font-size: 20px;
@@ -139,6 +138,7 @@ body {
   line-height: 1.11;
   text-transform: capitalize;
   color: #2e2f42;        
+
 }
 
 /* Список */
@@ -155,7 +155,12 @@ body {
 .section-title {
   font-size: 36px;               
   letter-spacing: 0.02em; 
-  color: #2e2f42;         
+  color: #2e2f42;      
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+
+
 }
 
 /* ===== Список ===== */
@@ -164,10 +169,19 @@ body {
 
 .team-item {
   background-color: #FFFFFF; 
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight:  500 ;
+  font-size: 20px;
+  line-height: 1.2; 
+  letter-spacing: 0.02em;
+
 }
 
 /* ===== Заголовок в п ===== */
-.member-title {              
+.member-title {      
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em; 
   color: #2e2f42;         
 }

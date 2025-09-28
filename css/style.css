@@ -178,16 +178,20 @@ body {
 
 }
 
-/* ===== Заголовок в п ===== */
+
 .member-title {      
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 20px;
+  font-weight:  500;
+  line-height: 1.2;
   letter-spacing: 0.02em; 
   color: #2e2f42;         
+
 }
 
 .member-text {           
   letter-spacing: 0.02em; 
+  font-size: 16px;
+  line-height: 1.5;
   color: #434455;         
 }
 

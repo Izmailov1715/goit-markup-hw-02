@@ -129,6 +129,8 @@ body {
 .team-section {
   background-color: #F4F4FD; 
   font-size: 36px;
+  line-height: 1.11;
+  
 }
 
 /* Заголовок секции (повторно используем team-title) */

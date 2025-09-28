@@ -205,7 +205,8 @@ body {
 
 /* 4 секция  */ 
 .portfolio-section {
-
+font-size: 36px;
+line-height: 1.11;
 }
 
 .section-title {

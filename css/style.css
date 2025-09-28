@@ -155,10 +155,10 @@ body {
 
 /* ===== Заголовок секции ===== */
 .section-title {
-  font-size: 36px;               
+  font-size: 36px;   
+  line-height: 1.11;
   letter-spacing: 0.02em; 
   color: #2e2f42;      
-  line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
 
@@ -205,8 +205,6 @@ body {
 
 /* 4 секция  */ 
 .portfolio-section {
-font-size: 36px;
-line-height: 1.11;
 }
 
 .section-title {

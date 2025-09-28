@@ -97,48 +97,46 @@ body {
   background-color: #404BBF;
 }
 
-/* Секции Features и Team */
-.features-section, .team-section {
-  text-align: left;
-  padding: 0;
+/* Секция 3Features и Team */
+.team-section {
+  background-color: #f4f4fd;
 }
 
-.features-title,
+/* Заголовок секции 3 */
 .team-title {
-  font-size: 32px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 40px;
 }
 
-.feature-name,
-.team-name {
+/* Пункты списка с3 */
+.team-item {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Заголовок с3 */
+.member-title {
+  font-weight: 500;
   font-size: 20px;
-  line-height: 1.3;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
-.feature-desc,
-.team-role {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-}
 
-.team-map-link {
-  font-size: 14px;
-  line-height: 1.5;
-  color: #404bbf;
-  text-decoration: none;
-}
-
-.team-map-link:hover,
-.team-map-link:focus {
-  text-decoration: underline;
-}
 /* 4 секция  */ 
 .portfolio-section {
   text-align: center;
-  padding: 60px 20px; /* Можно регулировать по макету */
+  padding: 60px 20px; 
 }
 
 .portfolio-section .section-title {

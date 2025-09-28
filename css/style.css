@@ -186,7 +186,7 @@ body {
   padding: 60px 20px; 
 }
 
-.portfolio-section .section-title {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -204,7 +204,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px; /* расстояние между карточками */
+  gap: 30px; 
 }
 
 .portfolio-item {

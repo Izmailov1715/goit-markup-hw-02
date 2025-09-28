@@ -95,8 +95,12 @@ body {
 
 .intro-button:focus {
   background-color:  #404BBF;
+  
 }
 
+.intro-button:hover {
+  background-color:  #404BBF;
+}
 /*Cекция 2  */
 .feature-section {
   background-color: #F4F4FD; 

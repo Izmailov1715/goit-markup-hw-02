@@ -125,6 +125,11 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+.feature-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em ;
+}
 /* Секция 3 */
 .team-section {
   background-color: #F4F4FD; 

@@ -206,6 +206,10 @@ body {
 .section-title {
   letter-spacing: 0.02em;
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
 }
 
 /* Список проектов */
@@ -232,6 +236,7 @@ body {
 .portfolio-desc {
   letter-spacing: 0.02em;
   color: #434455;
+  line-height: 1.5;
 }
 
 

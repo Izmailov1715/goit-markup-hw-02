@@ -91,7 +91,7 @@ body {
   cursor: pointer;
 }
 
-.intro-button:hover,
+
 .intro-button:focus {
   background-color: #404BBF;
 }
@@ -116,7 +116,16 @@ body {
   color: #434455;
 
 }
-/* Секция: имя класса — team-section (все буквы латиницей, строчные, >=3 символов) */
+
+.feature-name {
+  font-weight: 500;
+  font-size: 20px;       
+  line-height: 1.2;     
+  text-align: center;    
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+/* Секция 3 */
 .team-section {
   background-color: #F4F4FD; 
   font-size: 36px;

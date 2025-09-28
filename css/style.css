@@ -93,8 +93,9 @@ body {
 
 
 .intro-button:focus {
-  background-color: #404BBF;
+  background-color: #4D5AE5;
 }
+
 /*Cекция 2  */
 .feature-section {
   background-color: #F4F4FD; 

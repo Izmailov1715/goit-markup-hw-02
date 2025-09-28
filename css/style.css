@@ -44,7 +44,9 @@ body {
 }
 
 /* Контакты */
-.contact-address 
+.contact-address {
+  font-style: normal;
+}
 
 
 .contact-list {

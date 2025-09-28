@@ -100,6 +100,7 @@ body {
 /* Секция: имя класса — team-section (все буквы латиницей, строчные, >=3 символов) */
 .team-section {
   background-color: #F4F4FD; 
+  font-size: 36px;
 }
 
 /* Заголовок секции (повторно используем team-title) */
